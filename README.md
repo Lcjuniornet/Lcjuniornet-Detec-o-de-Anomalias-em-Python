@@ -56,5 +56,3 @@ O notebook está organizado nas seguintes etapas:
 Os resultados demonstram que modelos como Random Forest e XGBoost, especialmente com técnicas para lidar com o desbalanceamento de classes (como `class_weight` ou `scale_pos_weight`), conseguem um `recall` significativamente maior para a classe minoritária (fraudes) em comparação com a Regressão Logística sem ajustes específicos, mantendo uma alta precisão para a classe majoritária (transações normais). A otimização de hiperparâmetros e a análise SHAP contribuem para a melhoria do modelo e para o entendimento de seu comportamento.
 
 ---
-
-Este projeto foi desenvolvido com base no código de [Isadora Ferrão](https://github.com/IsadoraFerrao).
